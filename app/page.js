@@ -8,7 +8,7 @@ export default function Home() {
         "url": "https://giftcardportal.vip/",
         "name": "GiftCardPortal",
         "description":
-          "Independent educational guides to prepaid gift card balances, activation and usage.",
+          "Practical information on prepaid gift card balances, card activation, and everyday usage.",
         "inLanguage": "en-US",
       },
       {
@@ -23,9 +23,9 @@ export default function Home() {
         "@type": "WebPage",
         "@id": "https://giftcardportal.vip/#webpage",
         "url": "https://giftcardportal.vip/",
-        "name": "GiftCardMall/MyGift | Check Your Balance | Activate Card",
+        "name": "GiftCardMall/Mygift | Activation Gift | Check Your Gift",
         "description":
-          "Check out GiftCardMall/Mygift card balance, activation guidance, Visa repayment fundamentals and useful response to common prepaid gift card inquiries.",
+          "Explore GiftCardMall/Mygift balance guidance, card activation, Visa payment basics and practical answers to common prepaid gift card questions.",
         "isPartOf": {
           "@id": "https://giftcardportal.vip/#website",
         },
@@ -52,9 +52,9 @@ export default function Home() {
       {
         "@type": "Article",
         "@id": "https://giftcardportal.vip/#article",
-        "headline": "GiftCardMall/MyGift | Check Your Balance | Activate Card",
+        "headline": "GiftCardMall/Mygift | Activation Gift | Check Your Gift",
         "description":
-          "Check out GiftCardMall/Mygift card balance, activation guidance, Visa repayment fundamentals and useful response to common prepaid gift card inquiries.",
+          "An independent guide to prepaid gift card balance checks, activation, Visa usage and common transaction questions.",
         "mainEntityOfPage": {
           "@id": "https://giftcardportal.vip/#webpage",
         },
@@ -122,7 +122,8 @@ export default function Home() {
               <div className="eyebrow">Prepaid Card Learning Center</div>
 
               <h1>
-                Your Practical Guide to <span>GiftCardMall/Mygift</span>
+                Your Practical Guide to{" "}
+                <span>GiftCardMall/Mygift</span>
               </h1>
 
               <p className="hero-copy">
@@ -143,14 +144,15 @@ export default function Home() {
             </div>
 
             <aside className="hero-card">
-              <div className="card-label">A useful starting point</div>
-              <h2>Before checking a card balance</h2>
+              <div className="card-label">Start with the basics</div>
+              <h2>Before you check your card balance</h2>
 
               <div className="mini-answer">
-                <strong>Locate the original instructions</strong>
+                <strong>Find the original card instructions</strong>
                 <p>
-                  Review the back of the card, its packaging or the issuer&apos;s
-                  documentation to identify the appropriate servicing method.
+                  Check the back of your card, its packaging, or the
+                  issuer&apos;s documents to find the correct way to manage
+                  your card.
                 </p>
               </div>
 
@@ -171,36 +173,38 @@ export default function Home() {
           <div className="container notice-inner">
             <div className="notice-icon">!</div>
             <p>
-              <strong>Independent resource:</strong> GiftCardPortal is not the
-              official GiftCardMall or MyGift website and is not affiliated with
-              Blackhawk Network, Visa, Mastercard, American Express, a bank,
-              retailer or individual card issuer. Always follow the instructions
-              supplied with your specific card.
+              <strong>Independent resource:</strong> GiftCardPortal is an
+              independent informational website and is not the official
+              GiftCardMall or MyGift website. It is not affiliated with
+              Blackhawk Network, Visa, Mastercard, American Express, any bank,
+              retailer, or individual card issuer. Please refer to the
+              instructions provided with your specific gift card.
             </p>
           </div>
         </div>
 
-        {/* GUIDE / OVERVIEW SECTION */}
+        {/* GUIDE / ESSENTIALS SECTION */}
         <section id="guide">
           <div className="container">
             <div className="section-heading">
               <div className="kicker">The essentials</div>
-              <h2>What should you know about prepaid gift cards?</h2>
+              <h2>Prepaid Gift Cards: Key Information and Tips</h2>
               <p>
-                Most card-related searches fall into a few practical categories:
-                checking available value, activating a card, understanding
-                payment acceptance and resolving transaction errors. Knowing
-                which question you need answered can make the process simpler.
+                Gift card questions generally involve checking available funds,
+                completing card activation, confirming payment options, or
+                troubleshooting unsuccessful transactions. Knowing which topic
+                applies to your situation can save time and simplify the
+                process.
               </p>
             </div>
 
             <div className="answer-box">
               <span className="label">Quick explanation</span>
               <p>
-                GiftCardMall/Mygift searches generally relate to prepaid gift
-                card information. The correct process for checking a balance or
-                managing a card depends on the card program and the instructions
-                provided by its issuer.
+                GiftCardMall/MyGift-related queries commonly focus on prepaid
+                gift card services. Before checking your available balance or
+                managing your card, review the specific program requirements
+                and follow the guidance supplied by your card issuer.
               </p>
             </div>
 
@@ -209,26 +213,29 @@ export default function Home() {
                 <div className="icon-box">01</div>
                 <h3>Balance awareness</h3>
                 <p>
-                  Understand available value and how purchases, authorizations or
-                  refunds can affect the amount displayed.
+                  Find out how much value remains on your card and how
+                  transactions, temporary payment holds, or refunds can affect
+                  your displayed balance.
                 </p>
               </article>
 
               <article className="info-card">
                 <div className="icon-box">02</div>
-                <h3>Activation basics</h3>
+                <h3>Activation Guide</h3>
                 <p>
-                  Learn where to find activation instructions and why
-                  requirements can differ between card programs.
+                  Explore how to find activation information for your gift card
+                  and learn why specific requirements depend on the program and
+                  its issuer.
                 </p>
               </article>
 
               <article className="info-card">
                 <div className="icon-box">03</div>
-                <h3>Payment troubleshooting</h3>
+                <h3>Resolving Payment Issues</h3>
                 <p>
-                  Review common causes of declined transactions and practical
-                  ways to identify the next step.
+                  Find helpful information about declined gift card payments,
+                  potential transaction errors, and practical ways to determine
+                  what to do next.
                 </p>
               </article>
             </div>
@@ -240,22 +247,22 @@ export default function Home() {
           <div className="container">
             <div className="section-heading">
               <div className="kicker">Balance information</div>
-              <h2>How to check a giftcardmall balance safely</h2>
+              <h2>Steps to Verify Your GiftCardMall Gift Card Balance</h2>
               <p>
-                A balance check helps you understand the value available before
-                making another purchase. The balance displayed may reflect recent
-                card activity rather than the original amount loaded onto the
-                card.
+                Checking your gift card balance lets you see how much money is
+                available before making a new purchase. Keep in mind that the
+                displayed amount may change based on recent transactions rather
+                than the card&apos;s initial value.
               </p>
             </div>
 
             <div className="answer-box">
               <span className="label">Direct answer</span>
               <p>
-                To check a <strong>giftcardmall balance</strong>, start with the
-                website or contact details identified on the card or original
-                packaging. Verify the address independently before entering any
-                sensitive payment information.
+                To find your <strong>giftcardmall balance</strong>, first review
+                the instructions included with your card or packaging. Confirm
+                that you are visiting the correct website before submitting any
+                confidential payment or card information.
               </p>
             </div>
 
@@ -263,10 +270,11 @@ export default function Home() {
               <div className="step">
                 <div className="step-num">1</div>
                 <div>
-                  <h3>Read the card information</h3>
+                  <h3>Review Your Gift Card Details</h3>
                   <p>
-                    Look for the designated balance-check instructions, customer
-                    support details and any program-specific terms.
+                    Check your card for balance inquiry instructions, customer
+                    support information, and any terms specific to your gift
+                    card program.
                   </p>
                 </div>
               </div>
@@ -274,10 +282,11 @@ export default function Home() {
               <div className="step">
                 <div className="step-num">2</div>
                 <div>
-                  <h3>Verify the website address</h3>
+                  <h3>Check the Website URL Carefully</h3>
                   <p>
-                    Carefully check the domain and avoid unexpected links that
-                    ask you to provide private card credentials.
+                    Make sure the domain is correct before sharing any
+                    information, and stay away from suspicious links requesting
+                    private card details.
                   </p>
                 </div>
               </div>
@@ -285,10 +294,11 @@ export default function Home() {
               <div className="step">
                 <div className="step-num">3</div>
                 <div>
-                  <h3>Review recent card activity</h3>
+                  <h3>Check Your Recent Gift Card Transactions</h3>
                   <p>
-                    Pending authorizations, purchases and refunds can affect the
-                    available amount or when an adjustment appears.
+                    Changes to your gift card balance may occur because of
+                    pending transactions, recent spending, or refunds that take
+                    time to appear on your account.
                   </p>
                 </div>
               </div>
@@ -301,11 +311,11 @@ export default function Home() {
           <div className="container">
             <div className="section-heading">
               <div className="kicker">Balance terminology</div>
-              <h2>Understanding GiftCardMall/Mygift balance</h2>
+              <h2>How GiftCardMall/MyGift Card Balances Work</h2>
               <p>
-                The combined phrase is often used by people trying to identify
-                the available value on a prepaid card and determine which
-                instructions apply to it.
+                People commonly enter this combined term to discover their
+                prepaid card&apos;s available value and review the relevant
+                directions.
               </p>
             </div>
 
@@ -313,18 +323,18 @@ export default function Home() {
               <article className="info-card">
                 <h3>Available balance</h3>
                 <p>
-                  The available balance is the amount currently available for
-                  eligible transactions under the card&apos;s rules. It may be
-                  lower than the initial loaded value after spending.
+                  A card&apos;s available balance shows the amount that can
+                  currently be used for qualifying transactions. Spending may
+                  reduce it below the initial amount added to the card.
                 </p>
               </article>
 
               <article className="info-card">
                 <h3>Pending transactions</h3>
                 <p>
-                  A merchant may place a temporary authorization before a
-                  payment is finalized. The amount available can therefore
-                  differ from a simple total of completed purchases.
+                  A merchant may temporarily authorize an amount before
+                  completing a payment. As a result, the available balance may
+                  not match the total of finalized purchases.
                 </p>
               </article>
             </div>
@@ -338,10 +348,10 @@ export default function Home() {
               <div className="kicker">Brand and search context</div>
               <h2>What does giftcardmall refer to?</h2>
               <p>
-                A broad search can reflect different needs, from general gift
-                card information to activation instructions and payment support.
-                Not every page that mentions a card name is an official servicing
-                destination.
+                A general search may indicate various needs, including gift card
+                details, activation guidance, or payment assistance. However,
+                not every website mentioning a card&apos;s name provides
+                official support services.
               </p>
             </div>
 
@@ -349,24 +359,25 @@ export default function Home() {
               <article className="info-card">
                 <h3>Card information</h3>
                 <p>
-                  Review the documentation supplied with your card to understand
-                  the applicable terms and features.
+                  Check the materials provided with your card to learn about its
+                  terms, conditions, and available features.
                 </p>
               </article>
 
               <article className="info-card">
                 <h3>Balance and activity</h3>
                 <p>
-                  Understand the difference between the original card value,
-                  completed purchases and temporary authorizations.
+                  Know the difference between the card&apos;s starting value,
+                  completed payments, and amounts temporarily reserved for
+                  transactions.
                 </p>
               </article>
 
               <article className="info-card">
                 <h3>Support options</h3>
                 <p>
-                  Use the issuer&apos;s own support details when you need help
-                  with a particular card or transaction.
+                  Contact the card issuer through its official support channels
+                  for assistance with a specific card or transaction.
                 </p>
               </article>
             </div>
@@ -380,19 +391,20 @@ export default function Home() {
               <div className="kicker">Address verification</div>
               <h2>Searching for www.giftcardmall.com mygift</h2>
               <p>
-                Some users search for a complete web address because they want to
-                reach a particular card-related service.
+                A search for a complete URL may indicate that someone wants to
+                visit a specific card-related website or service.
               </p>
             </div>
 
             <div className="answer-box">
               <span className="label">Before you continue</span>
               <p>
-                If you search for <strong>www.giftcardmall.com mygift</strong>,
-                compare the destination with the instructions printed on your
-                card or packaging. A search result or advertisement should not
-                be treated as proof that a page is the correct official
-                destination for your specific card.
+                If you search for{" "}
+                <strong>www.giftcardmall.com mygift</strong>, verify the
+                website address against the instructions provided on your card
+                or its packaging. Search results and advertisements alone do not
+                confirm that a page is the official destination for your
+                particular card.
               </p>
             </div>
 
@@ -408,16 +420,17 @@ export default function Home() {
               <article className="info-card">
                 <h3>Be cautious with messages</h3>
                 <p>
-                  Unexpected texts or emails requesting card details should be
-                  treated carefully, even when they use familiar wording.
+                  Messages requesting your card details without warning should
+                  be handled carefully, regardless of how recognizable their
+                  wording appears.
                 </p>
               </article>
 
               <article className="info-card">
                 <h3>Use original documentation</h3>
                 <p>
-                  The card&apos;s own instructions are the best starting point for
-                  identifying its designated servicing channel.
+                  The card&apos;s own documentation is the primary reference for
+                  identifying the intended channel for servicing and assistance.
                 </p>
               </article>
             </div>
@@ -431,9 +444,9 @@ export default function Home() {
               <div className="kicker">Activation basics</div>
               <h2>How prepaid gift card activation works</h2>
               <p>
-                Activation requirements vary. Some cards are activated at
-                purchase, while others may require the cardholder to follow
-                additional instructions before use.
+                The activation process depends on the type of card. Certain
+                cards are activated when purchased, whereas others need further
+                instructions to be followed before they can be used.
               </p>
             </div>
 
@@ -441,18 +454,18 @@ export default function Home() {
               <article className="info-card">
                 <h3>Check activation status</h3>
                 <p>
-                  Review the purchase receipt, card packaging and instructions to
-                  determine whether activation was completed or another step is
-                  required.
+                  Check the documentation included with your purchase to see
+                  whether activation was successful or further instructions must
+                  be followed.
                 </p>
               </article>
 
               <article className="info-card">
                 <h3>Follow the correct process</h3>
                 <p>
-                  Use the activation information supplied for your card. Do not
-                  enter payment credentials on an unrelated website simply
-                  because it mentions the same card name.
+                  Use the official activation information supplied for your
+                  card, and do not share payment credentials with websites that
+                  merely mention the card&apos;s name.
                 </p>
               </article>
             </div>
@@ -460,9 +473,10 @@ export default function Home() {
             <div className="answer-box" style={{ marginTop: "20px" }}>
               <span className="label">Practical tip</span>
               <p>
-                If the card does not work after following its instructions,
-                contact the issuer or customer support provider listed on the
-                card materials. Keep the purchase receipt if available.
+                If your card still does not work after following the provided
+                instructions, contact the issuer or support service identified
+                in the card documentation. Retain your purchase receipt if
+                possible.
               </p>
             </div>
           </div>
@@ -473,23 +487,23 @@ export default function Home() {
           <div className="container">
             <div className="section-heading">
               <div className="kicker">Payment network basics</div>
-              <h2>What does giftcardmall/mygift visa mean?</h2>
+              <h2>What is giftcardmall/mygift visa?</h2>
               <p>
-                Searches containing the word Visa may relate to prepaid cards
-                that use the Visa payment network. A payment network alone does
-                not guarantee that every merchant or transaction type will be
-                supported.
+                Searches that include the term Visa may refer to prepaid cards
+                operating on the Visa payment network. However, network
+                participation does not mean that every merchant or transaction
+                type will be accepted.
               </p>
             </div>
 
             <div className="answer-box">
               <span className="label">Direct answer</span>
               <p>
-                The phrase <strong>giftcardmall/mygift visa</strong> may refer to
-                a Visa-branded prepaid gift card. Whether it works for a specific
-                purchase depends on the card&apos;s terms, the merchant&apos;s
-                acceptance rules, the available balance and the type of
-                transaction.
+                The search term <strong>giftcardmall/mygift visa</strong> may
+                relate to a prepaid gift card bearing the Visa brand. Whether
+                the card can be used for a specific transaction depends on its
+                conditions, merchant acceptance, remaining balance, and
+                purchase category.
               </p>
             </div>
 
@@ -497,24 +511,24 @@ export default function Home() {
               <article className="info-card">
                 <h3>Merchant acceptance</h3>
                 <p>
-                  Confirm that the store accepts the applicable payment network
-                  and prepaid card type.
+                  Make sure the store accepts your card network and prepaid card
+                  type.
                 </p>
               </article>
 
               <article className="info-card">
-                <h3>Correct payment details</h3>
+                <h3>Re-Check payment details</h3>
                 <p>
-                  Follow the issuer&apos;s guidance for billing information and
-                  other details required by the merchant.
+                  Follow your card issuer&apos;s instructions for any billing
+                  details requested by the merchant.
                 </p>
               </article>
 
               <article className="info-card">
-                <h3>Transaction restrictions</h3>
+                <h3>Payment limits</h3>
                 <p>
-                  Some cards have restrictions on international, recurring or
-                  other specialized transactions.
+                  Card limits may apply to international, subscription, or
+                  special payments.
                 </p>
               </article>
             </div>
@@ -528,9 +542,9 @@ export default function Home() {
               <div className="kicker">Related searches</div>
               <h2>Understanding mygift giftcardmall queries</h2>
               <p>
-                Combining card names in a search often means that a visitor wants
-                a specific answer about balance, activation or card use.
-                Identifying the intended task makes the next step clearer.
+                Searching with a specific card name usually means the user needs
+                help with balance, activation, or card usage. Knowing their
+                goal helps clarify the next step.
               </p>
             </div>
 
@@ -538,18 +552,17 @@ export default function Home() {
               <article className="info-card">
                 <h3>Why people use this phrase</h3>
                 <p>
-                  A search for <strong>mygift giftcardmall</strong> may indicate
-                  an attempt to find card information, balance guidance or help
-                  with an online transaction.
+                  Searching for <strong>mygift giftcardmall</strong> usually
+                  means a user is looking for card details, balance checks, or
+                  online checkout help.
                 </p>
               </article>
 
               <article className="info-card">
-                <h3>Where to begin</h3>
+                <h3>How to begin</h3>
                 <p>
-                  Start with the physical card and its documentation. Those
-                  materials can help identify the applicable issuer, servicing
-                  instructions and card-specific conditions.
+                  Review your card and the attached paperwork to quickly find
+                  your card issuer, usage instructions, and specific terms.
                 </p>
               </article>
             </div>
@@ -561,11 +574,10 @@ export default function Home() {
           <div className="container">
             <div className="section-heading">
               <div className="kicker">Payment troubleshooting</div>
-              <h2>Why might a prepaid card be declined?</h2>
+              <h2>Common reasons a prepaid card may be declined</h2>
               <p>
-                A declined purchase can have several causes. Checking the
-                available balance is a useful first step, but it may not explain
-                every payment error.
+                First, check your balance—if that looks fine, look into other
+                common reasons your card might be declining.
               </p>
             </div>
 
@@ -573,23 +585,23 @@ export default function Home() {
               <article className="info-card">
                 <h3>Common causes</h3>
                 <ul>
-                  <li>Insufficient available funds</li>
-                  <li>Merchant or transaction restrictions</li>
-                  <li>Incorrect payment details</li>
+                  <li>Low or insufficient balance</li>
+                  <li>Store or transaction limits</li>
+                  <li>Wrong payment information</li>
                   <li>Activation not completed</li>
-                  <li>Temporary authorization holds</li>
-                  <li>Card expiration or other card-specific limits</li>
+                  <li>Card not activated yet</li>
+                  <li>Expired card or card-specific rules</li>
                 </ul>
               </article>
 
               <article className="info-card">
                 <h3>Steps to consider</h3>
                 <ul>
-                  <li>Review the current balance.</li>
-                  <li>Confirm that the merchant accepts the card.</li>
-                  <li>Check the transaction details.</li>
-                  <li>Review the card&apos;s instructions.</li>
-                  <li>Contact the issuer if the problem persists.</li>
+                  <li>Check your remaining balance.</li>
+                  <li>Make sure the merchant takes this card.</li>
+                  <li>Double-check your payment information.</li>
+                  <li>Review the card guidelines.</li>
+                  <li>Call card support if the issue continues.</li>
                 </ul>
               </article>
             </div>
@@ -603,9 +615,9 @@ export default function Home() {
               <div className="kicker">Cardholder safety</div>
               <h2>Keep your gift card details private</h2>
               <p>
-                Prepaid card information can represent monetary value. Protect
-                card credentials and verify the destination before sharing any
-                sensitive information.
+                Prepaid card details are as valuable as cash. Keep your card info
+                safe and double-check where you are sending it before sharing
+                anything sensitive.
               </p>
             </div>
 
@@ -613,20 +625,31 @@ export default function Home() {
               <article className="info-card">
                 <h3>Good security practices</h3>
                 <ul>
-                  <li>Use the servicing details supplied with the card.</li>
-                  <li>Check the website domain carefully.</li>
-                  <li>Keep receipts and purchase records.</li>
-                  <li>Avoid publishing card information online.</li>
-                  <li>Be careful with unexpected prize or refund messages.</li>
+                  <li>
+                    Use the official contact details provided with your card.
+                  </li>
+                  <li>
+                    Double-check the website address before entering details.
+                  </li>
+                  <li>Save all payment receipts and transaction records.</li>
+                  <li>
+                    Never post your card numbers or details on social media or
+                    forums.
+                  </li>
+                  <li>
+                    Watch out for suspicious messages offering free prizes or
+                    unexpected refunds.
+                  </li>
                 </ul>
               </article>
 
               <article className="info-card">
-                <h3>Information this site does not need</h3>
+                <h3>Information you do not need to provide</h3>
                 <p>
-                  GiftCardPortal does not need your full card number, PIN, CVV,
-                  password or other private payment credentials. Do not send
-                  those details through public forms, comments or messages.
+                  GiftCardPortal will never ask for your full card number, PIN,
+                  CVV, password, or private account details. Never share this
+                  sensitive information in public forms, comments, or
+                  messages.
                 </p>
               </article>
             </div>
@@ -640,8 +663,9 @@ export default function Home() {
               <div className="kicker">Common questions</div>
               <h2>GiftCardMall/Mygift FAQ</h2>
               <p>
-                Concise explanations for common questions about prepaid card
-                balances, activation, payment acceptance and safety.
+                Clear, quick answers to common questions about checking your
+                balance, activating your card, store acceptance, and staying
+                safe.
               </p>
             </div>
 
@@ -649,65 +673,64 @@ export default function Home() {
               <details open>
                 <summary>What is GiftCardMall/Mygift?</summary>
                 <p>
-                  It is a search phrase commonly associated with prepaid gift
-                  card information. The relevant balance and servicing process
-                  depends on the specific card and issuer.
+                  This search relates to prepaid gift cards. Balance checks and
+                  support steps depend on the specific card and issuing bank.
                 </p>
               </details>
 
               <details>
-                <summary>How do I check a giftcardmall balance?</summary>
+                <summary>How can I check a giftcardmall balance?</summary>
                 <p>
-                  Start with the instructions printed on your card or packaging.
-                  Verify the destination before entering any private
-                  information.
+                  Check your card or packaging for official instructions, and
+                  verify the website before submitting confidential details.
                 </p>
               </details>
 
               <details>
-                <summary>What does GiftCardMall/Mygift balance mean?</summary>
+                <summary>What is a GiftCardMall / MyGift balance?</summary>
                 <p>
-                  It generally refers to the available value remaining on a
-                  relevant prepaid card. Recent purchases, authorizations and
-                  refunds may affect the displayed amount.
+                  Your remaining card balance. Recent payments, pending holds,
+                  and refunds may change the total displayed.
                 </p>
               </details>
 
               <details>
                 <summary>
-                  What should I know about www.giftcardmall.com mygift?
+                  How can I know about www.giftcardmall.com mygift?
                 </summary>
                 <p>
-                  Verify the address against the instructions supplied with your
-                  specific card. Search results and advertisements alone do not
-                  establish that a destination is appropriate.
+                  Verify the URL using your physical card packaging—never rely
+                  solely on search engine results or advertisements to find
+                  your official portal.
                 </p>
               </details>
 
               <details>
-                <summary>Can a Visa prepaid gift card be used online?</summary>
+                <summary>
+                  How to use your Visa prepaid gift card online
+                </summary>
                 <p>
-                  It may be possible when the merchant accepts the applicable
-                  card and the transaction satisfies the card&apos;s terms and
-                  the merchant&apos;s payment requirements.
+                  You can use your card online if the merchant supports it and
+                  your purchase complies with both the card rules and checkout
+                  requirements.
                 </p>
               </details>
 
               <details>
                 <summary>Why was my gift card payment declined?</summary>
                 <p>
-                  Possible reasons include insufficient available funds,
-                  incorrect payment details, merchant restrictions, activation
-                  requirements or temporary authorization holds.
+                  Common causes include low card balance, incorrect payment info,
+                  store restrictions, pending card activation, or temporary
+                  pre-authorization holds.
                 </p>
               </details>
 
               <details>
-                <summary>Is GiftCardPortal an official GiftCardMall service?</summary>
+                <summary>Is GiftCardPortal an official site?</summary>
                 <p>
-                  No. GiftCardPortal is an independent educational website and is
-                  not affiliated with GiftCardMall, MyGift, Visa or any
-                  individual card issuer.
+                  No. GiftCardPortal is an independent educational site and is
+                  not affiliated with GiftCardMall, MyGift, Visa, or any card
+                  issuer.
                 </p>
               </details>
             </div>
@@ -715,9 +738,9 @@ export default function Home() {
             <div className="cta">
               <h2>Start with the right information</h2>
               <p>
-                Use the documentation provided with your card, verify the
-                servicing address and consult the relevant guide above before
-                taking action.
+                For your security, please refer to your card&apos;s included
+                documentation, confirm the official support web address, and
+                check the guide above before making any updates.
               </p>
               <div className="actions">
                 <a className="btn btn-primary" href="#balance">
@@ -738,7 +761,9 @@ export default function Home() {
           <div className="footer-top">
             <div>
               <div className="footer-brand">GiftCardPortal</div>
-              <p>Independent prepaid gift card educational resource.</p>
+              <p>
+                An independent educational resource for prepaid gift card users.
+              </p>
             </div>
 
             <nav className="footer-links" aria-label="Footer navigation">

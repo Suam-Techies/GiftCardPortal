@@ -14,27 +14,42 @@ export const viewport = {
 
 export const metadata = {
   metadataBase: new URL("https://giftcardportal.vip"),
-  title: "GiftCardMall/MyGift | Check Your Balance | Activate Card",
+  title: "GiftCardMall/Mygift | Check Balance | Visa| Activation",
   description:
-    "Check out GiftCardMall/Mygift card balance, activation guidance, Visa repayment fundamentals and useful response to common prepaid gift card inquiries.",
+    "Access helpful GiftCardMall/Mygift resources for balance guidance, activation information, Visa transactions, and prepaid gift card FAQs.",
   authors: [{ name: "GiftCardPortal Editorial Team" }],
+  robots: {
+    index: true,
+    follow: true,
+    "max-image-preview": "large",
+    "max-snippet": -1,
+    "max-video-preview": -1,
+  },
+  verification: {
+    google: "d7fwaF-V5qImKhqz5ZKviudOopPTSJwzaS796Dsatxk",
+  },
   alternates: {
     canonical: "https://giftcardportal.vip/",
+    languages: {
+      "en-US": "https://giftcardportal.vip/",
+      "en": "https://giftcardportal.vip/",
+      "x-default": "https://giftcardportal.vip/",
+    },
   },
   openGraph: {
     type: "website",
-    title: "GiftCardMall/MyGift | Check Your Balance | Activate Card",
+    title: "GiftCardMall/Mygift | Activation Gift | Check Your Gift",
     description:
-      "Check out GiftCardMall/Mygift card balance, activation guidance, Visa repayment fundamentals and useful response to common prepaid gift card inquiries.",
+      "An independent guide to prepaid gift card balances, activation steps, Visa payments, and common GiftCardMall/Mygift questions.",
     url: "https://giftcardportal.vip/",
     siteName: "GiftCardPortal",
     locale: "en_US",
   },
   twitter: {
     card: "summary",
-    title: "GiftCardMall/MyGift | Check Your Balance | Activate Card",
+    title: "GiftCardMall/Mygift Guide",
     description:
-      "Check out GiftCardMall/Mygift card balance, activation guidance, Visa repayment fundamentals and useful response to common prepaid gift card inquiries.",
+      "Get clear guidance on gift card balances, activation steps, Visa transactions, and everyday prepaid card concerns.",
   },
 };
 
