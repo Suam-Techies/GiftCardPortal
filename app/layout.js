@@ -38,18 +38,18 @@ export const metadata = {
   },
   openGraph: {
     type: "website",
-    title: "GiftCardMall/Mygift | Activation Gift | Check Your Gift",
+    title: "GiftCardMall/MyGift | Check Your Balance | Official Web Portal",
     description:
-      "An independent guide to prepaid gift card balances, activation steps, Visa payments, and common GiftCardMall/Mygift questions.",
+      "GiftCardMall/MyGift is the official online portal where you can directly check balance & card activation, review transactions, and manage prepaid gift cards.",
     url: "https://giftcardportal.vip/",
     siteName: "GiftCardPortal",
     locale: "en_US",
   },
   twitter: {
     card: "summary",
-    title: "GiftCardMall/Mygift Guide",
+    title: "GiftCardMall/MyGift | Check Your Balance | Official Web Portal",
     description:
-      "Get clear guidance on gift card balances, activation steps, Visa transactions, and everyday prepaid card concerns.",
+      "GiftCardMall/MyGift is the official online portal where you can directly check balance & card activation, review transactions, and manage prepaid gift cards.",
   },
 };
 

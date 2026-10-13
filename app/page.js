@@ -23,9 +23,9 @@ export default function Home() {
         "@type": "WebPage",
         "@id": "https://giftcardportal.vip/#webpage",
         "url": "https://giftcardportal.vip/",
-        "name": "GiftCardMall/Mygift | Activation Gift | Check Your Gift",
+        "name": "GiftCardMall/MyGift | Check Your Balance | Official Web Portal",
         "description":
-          "Explore GiftCardMall/Mygift balance guidance, card activation, Visa payment basics and practical answers to common prepaid gift card questions.",
+          "GiftCardMall/MyGift is the official online portal where you can directly check balance & card activation, review transactions, and manage prepaid gift cards.",
         "isPartOf": {
           "@id": "https://giftcardportal.vip/#website",
         },
@@ -52,9 +52,9 @@ export default function Home() {
       {
         "@type": "Article",
         "@id": "https://giftcardportal.vip/#article",
-        "headline": "GiftCardMall/Mygift | Activation Gift | Check Your Gift",
+        "headline": "GiftCardMall/MyGift | Check Your Balance | Official Web Portal",
         "description":
-          "An independent guide to prepaid gift card balance checks, activation, Visa usage and common transaction questions.",
+          "GiftCardMall/MyGift is the official online portal where you can directly check balance & card activation, review transactions, and manage prepaid gift cards.",
         "mainEntityOfPage": {
           "@id": "https://giftcardportal.vip/#webpage",
         },
