@@ -14,9 +14,9 @@ export const viewport = {
 
 export const metadata = {
   metadataBase: new URL("https://giftcardportal.vip"),
-  title: "GiftCardMall/Mygift | Check Balance | Visa| Activation",
+  title: "GiftCardMall/MyGift | Check Your Balance | Official Web Portal",
   description:
-    "Access helpful GiftCardMall/Mygift resources for balance guidance, activation information, Visa transactions, and prepaid gift card FAQs.",
+    "GiftCardMall/MyGift is the official online portal where you can directly check balance & card activation, review transactions, and manage prepaid gift cards.",
   authors: [{ name: "GiftCardPortal Editorial Team" }],
   robots: {
     index: true,
