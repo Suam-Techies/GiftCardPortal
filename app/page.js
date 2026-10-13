@@ -135,7 +135,7 @@ export default function Home() {
 
               <div className="actions">
                 <a className="btn btn-primary" href="#balance">
-                  Understand Your Balance
+                  Check your balance
                 </a>
                 <a className="btn btn-secondary" href="#faq">
                   Browse Questions
