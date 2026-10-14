@@ -1,3 +1,47 @@
+const faqs = [
+  {
+    question:
+      "How can I check my GiftCardMall MyGift balance or GiftCardMall balance?",
+    answer:
+      "Start with the balance-check details printed on your card or packaging. Make sure the web address matches the issuer’s instructions before entering any card information.",
+  },
+  {
+    question: "Does a prepaid card need to be activated?",
+    answer:
+      "It depends on the card. Some are activated when purchased, while others require an extra step. Check the receipt and card materials for the correct process.",
+  },
+  {
+    question: "Why might a prepaid card payment be declined?",
+    answer:
+      "A payment can fail if the card is not activated, the available balance is too low, or the merchant or transaction type is not supported. Review the card instructions and contact the issuer if you still need help.",
+  },
+  {
+    question: "Can I use a prepaid Visa card for any online purchase?",
+    answer:
+      "Not always. Online use depends on the card’s terms, the merchant’s payment rules, and the available balance. Some cards restrict certain transaction types.",
+  },
+  {
+    question: "What does GiftCardMall/MyGift balance mean?",
+    answer:
+      "It refers to the available value on a prepaid card. Purchases, refunds, and pending authorizations can affect the amount shown.",
+  },
+  {
+    question: "Where can I find GiftCardMall/MyGift balance information?",
+    answer:
+      "Use the balance and support instructions printed on your card or packaging, and verify the website address before entering private details.",
+  },
+  {
+    question: "Is GiftCardPortal an official GiftCardMall/MyGift website?",
+    answer:
+      "No. GiftCardPortal is an independent information resource and is not affiliated with or endorsed by GiftCardMall, MyGift, or a card issuer.",
+  },
+  {
+    question: "What does GiftCardMall/MyGift refer to?",
+    answer:
+      "People use this phrase when looking for prepaid card balance, activation, or transaction guidance. The right process depends on the issuer and card program.",
+  },
+];
+
 export default function Home() {
   const jsonLd = {
     "@context": "https://schema.org",
@@ -85,6 +129,18 @@ export default function Home() {
           },
         ],
       },
+      {
+        "@type": "FAQPage",
+        "@id": "https://giftcardportal.vip/#faq",
+        "mainEntity": faqs.map(({ question, answer }) => ({
+          "@type": "Question",
+          "name": question,
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": answer,
+          },
+        })),
+      },
     ],
   };
 
@@ -92,7 +148,9 @@ export default function Home() {
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c"),
+        }}
       />
 
       <header className="header">
@@ -127,7 +185,7 @@ export default function Home() {
               </h1>
 
               <p className="hero-copy">
-                Learn how prepaid gift card balances work, where to find
+                Learn how prepaid GiftCardMall/Mygift balance work, where to find
                 card-specific instructions, what activation can involve and why
                 some online transactions may not succeed. This guide organizes
                 common questions into clear, practical answers.
@@ -247,7 +305,7 @@ export default function Home() {
           <div className="container">
             <div className="section-heading">
               <div className="kicker">Balance information</div>
-              <h2>Steps to Verify Your GiftCardMall Gift Card Balance</h2>
+              <h2>How to Verify Your GiftCardMall Gift Card Balance</h2>
               <p>
                 Checking your gift card balance lets you see how much money is
                 available before making a new purchase. Keep in mind that the
@@ -259,7 +317,7 @@ export default function Home() {
             <div className="answer-box">
               <span className="label">Direct answer</span>
               <p>
-                To find your <strong>giftcardmall balance</strong>, first review
+                To find your <strong>giftcardmall/mygift balance</strong>, first review
                 the instructions included with your card or packaging. Confirm
                 that you are visiting the correct website before submitting any
                 confidential payment or card information.
@@ -323,7 +381,7 @@ export default function Home() {
               <article className="info-card">
                 <h3>Available balance</h3>
                 <p>
-                  A card&apos;s available balance shows the amount that can
+                  A giftcardmall/mygift card&apos;s  available balance shows the amount that can
                   currently be used for qualifying transactions. Spending may
                   reduce it below the initial amount added to the card.
                 </p>
@@ -444,7 +502,7 @@ export default function Home() {
               <div className="kicker">Activation basics</div>
               <h2>How prepaid gift card activation works</h2>
               <p>
-                The activation process depends on the type of card. Certain
+                The GiftCardMall/Mygift activation process depends on the type of card. Certain
                 cards are activated when purchased, whereas others need further
                 instructions to be followed before they can be used.
               </p>
@@ -670,69 +728,12 @@ export default function Home() {
             </div>
 
             <div className="faq-list">
-              <details open>
-                <summary>What is GiftCardMall/Mygift?</summary>
-                <p>
-                  This search relates to prepaid gift cards. Balance checks and
-                  support steps depend on the specific card and issuing bank.
-                </p>
-              </details>
-
-              <details>
-                <summary>How can I check a giftcardmall balance?</summary>
-                <p>
-                  Check your card or packaging for official instructions, and
-                  verify the website before submitting confidential details.
-                </p>
-              </details>
-
-              <details>
-                <summary>What is a GiftCardMall / MyGift balance?</summary>
-                <p>
-                  Your remaining card balance. Recent payments, pending holds,
-                  and refunds may change the total displayed.
-                </p>
-              </details>
-
-              <details>
-                <summary>
-                  How can I know about www.giftcardmall.com mygift?
-                </summary>
-                <p>
-                  Verify the URL using your physical card packaging—never rely
-                  solely on search engine results or advertisements to find
-                  your official portal.
-                </p>
-              </details>
-
-              <details>
-                <summary>
-                  How to use your Visa prepaid gift card online
-                </summary>
-                <p>
-                  You can use your card online if the merchant supports it and
-                  your purchase complies with both the card rules and checkout
-                  requirements.
-                </p>
-              </details>
-
-              <details>
-                <summary>Why was my gift card payment declined?</summary>
-                <p>
-                  Common causes include low card balance, incorrect payment info,
-                  store restrictions, pending card activation, or temporary
-                  pre-authorization holds.
-                </p>
-              </details>
-
-              <details>
-                <summary>Is GiftCardPortal an official site?</summary>
-                <p>
-                  No. GiftCardPortal is an independent educational site and is
-                  not affiliated with GiftCardMall, MyGift, Visa, or any card
-                  issuer.
-                </p>
-              </details>
+              {faqs.map(({ question, answer }, index) => (
+                <details key={question} open={index === 0}>
+                  <summary>{question}</summary>
+                  <p>{answer}</p>
+                </details>
+              ))}
             </div>
 
             <div className="cta">

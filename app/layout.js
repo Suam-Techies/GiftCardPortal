@@ -14,16 +14,30 @@ export const viewport = {
 
 export const metadata = {
   metadataBase: new URL("https://giftcardportal.vip"),
-  title: "GiftCardMall/MyGift | Check Your Balance | Official Web Portal",
+  title: {
+    default: "GiftCardMall/MyGift | Balance & Activation | Official Website ",
+    template: "GiftCardMall/MyGift | Balance & Activation | Official Website ",
+  },
   description:
-    "GiftCardMall/MyGift is the official online portal where you can directly check balance & card activation, review transactions, and manage prepaid gift cards.",
-  authors: [{ name: "GiftCardPortal Editorial Team" }],
+    "Explore how to find your cards real balance-check Activation, read available funds, understand transactions, and solve prepaid gift card issues.",
+  applicationName: "GiftCard",
+  keywords: [
+    "GiftCardMall MyGift balance",
+    "GiftCardMall balance",
+    "MyGift prepaid card",
+    "prepaid gift card activation",
+    "prepaid card transaction help",
+  ],
   robots: {
     index: true,
     follow: true,
-    "max-image-preview": "large",
-    "max-snippet": -1,
-    "max-video-preview": -1,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1,
+    },
   },
   verification: {
     google: "d7fwaF-V5qImKhqz5ZKviudOopPTSJwzaS796Dsatxk",
@@ -35,21 +49,6 @@ export const metadata = {
       "en": "https://giftcardportal.vip/",
       "x-default": "https://giftcardportal.vip/",
     },
-  },
-  openGraph: {
-    type: "website",
-    title: "GiftCardMall/MyGift | Check Your Balance | Official Web Portal",
-    description:
-      "GiftCardMall/MyGift is the official online portal where you can directly check balance & card activation, review transactions, and manage prepaid gift cards.",
-    url: "https://giftcardportal.vip/",
-    siteName: "GiftCardPortal",
-    locale: "en_US",
-  },
-  twitter: {
-    card: "summary",
-    title: "GiftCardMall/MyGift | Check Your Balance | Official Web Portal",
-    description:
-      "GiftCardMall/MyGift is the official online portal where you can directly check balance & card activation, review transactions, and manage prepaid gift cards.",
   },
 };
 
