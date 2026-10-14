@@ -44,11 +44,7 @@ export const metadata = {
   },
   alternates: {
     canonical: "https://giftcardportal.vip/",
-    languages: {
-      "en-US": "https://giftcardportal.vip/",
-      "en": "https://giftcardportal.vip/",
-      "x-default": "https://giftcardportal.vip/",
-    },
+ 
   },
 };
 

@@ -118,13 +118,19 @@ export default function Home() {
           {
             "@type": "ListItem",
             "position": 1,
-            "name": "Home",
+            "name": "GiftCardMall/MyGift Activation",
             "item": "https://giftcardportal.vip/",
           },
           {
             "@type": "ListItem",
             "position": 2,
-            "name": "Gift Card Guide",
+            "name": "GiftCardMall/MyGift Balance",
+            "item": "https://giftcardportal.vip/",
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "GiftCardMall/MyGift",
             "item": "https://giftcardportal.vip/",
           },
         ],
