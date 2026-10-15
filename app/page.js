@@ -67,9 +67,9 @@ export default function Home() {
         "@type": "WebPage",
         "@id": "https://giftcardportal.vip/#webpage",
         "url": "https://giftcardportal.vip/",
-        "name": "GiftCardMall/MyGift | Check Your Balance | Official Web Portal",
+        "name": "GiftCardMall/MyGift Balance and Activation Guide | GiftCardPortal",
         "description":
-          "GiftCardMall/MyGift is the official online portal where you can directly check balance & card activation, review transactions, and manage prepaid gift cards.",
+          "Independent information about GiftCardMall/MyGift prepaid card balances, activation, and transactions.",
         "isPartOf": {
           "@id": "https://giftcardportal.vip/#website",
         },
@@ -96,9 +96,9 @@ export default function Home() {
       {
         "@type": "Article",
         "@id": "https://giftcardportal.vip/#article",
-        "headline": "GiftCardMall/MyGift | Check Your Balance | Official Web Portal",
+        "headline": "GiftCardMall/MyGift Balance and Activation Guide",
         "description":
-          "GiftCardMall/MyGift is the official online portal where you can directly check balance & card activation, review transactions, and manage prepaid gift cards.",
+          "Independent information about GiftCardMall/MyGift prepaid card balances, activation, and transactions.",
         "mainEntityOfPage": {
           "@id": "https://giftcardportal.vip/#webpage",
         },
@@ -110,30 +110,6 @@ export default function Home() {
           "@id": "https://giftcardportal.vip/#organization",
         },
         "inLanguage": "en-US",
-      },
-      {
-        "@type": "BreadcrumbList",
-        "@id": "https://giftcardportal.vip/#breadcrumb",
-        "itemListElement": [
-          {
-            "@type": "ListItem",
-            "position": 1,
-            "name": "GiftCardMall/MyGift Activation",
-            "item": "https://giftcardportal.vip/",
-          },
-          {
-            "@type": "ListItem",
-            "position": 2,
-            "name": "GiftCardMall/MyGift Balance",
-            "item": "https://giftcardportal.vip/",
-          },
-          {
-            "@type": "ListItem",
-            "position": 3,
-            "name": "GiftCardMall/MyGift",
-            "item": "https://giftcardportal.vip/",
-          },
-        ],
       },
       {
         "@type": "FAQPage",
