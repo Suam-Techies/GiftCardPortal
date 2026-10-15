@@ -18,7 +18,7 @@ export const metadata = {
     default: "GiftCardMall/MyGift Balance & Activation Guide | GiftCardPortal",
   },
   description:
-    "Explore how to find your cards real balance-check Activation, read available funds, understand transactions, and solve prepaid gift card issues.",
+    "Independent guide to GiftCardMall/MyGift prepaid card balances, activation instructions, transactions, and common payment issues.",
   keywords: [
     "GiftCardMall MyGift balance",
     "GiftCardMall balance",
@@ -44,16 +44,18 @@ export const metadata = {
     siteName: "GiftCardPortal",
     title: "GiftCardMall/MyGift Balance & Activation Guide | GiftCardPortal",
     description:
-      "Explore how to find your cards real balance-check Activation, read available funds, understand transactions, and solve prepaid gift card issues.",
+      "Independent guide to GiftCardMall/MyGift prepaid card balances, activation instructions, transactions, and common payment issues.",
     locale: "en_US",
   },
   twitter: {
     card: "summary",
     title: "GiftCardMall/MyGift Balance & Activation Guide | GiftCardPortal",
     description:
-      "Explore how to find your cards real balance-check Activation, read available funds, understand transactions, and solve prepaid gift card issues.",
+      "Independent guide to GiftCardMall/MyGift prepaid card balances, activation instructions, transactions, and common payment issues.",
   },
- 
+  alternates: {
+    canonical: "/",
+  },
 };
 
 export default function RootLayout({ children }) {
