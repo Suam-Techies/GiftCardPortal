@@ -103,11 +103,11 @@ export default function Home() {
           "@id": "https://giftcardportal.vip/#webpage",
         },
         "author": {
-          "@type": "Organization",
+          "@type": "webpage",
           "name": "GiftCardPortal",
         },
         "publisher": {
-          "@id": "https://giftcardportal.vip/#organization",
+          "@id": "https://giftcardportal.vip/#webpage",
         },
         "inLanguage": "en-US",
       },
