@@ -42,14 +42,13 @@ export const metadata = {
     type: "website",
     url: "/",
     siteName: "GiftCardPortal",
-    title: "GiftCardMall/MyGift Balance & Activation Guide | GiftCardPortal",
+    title: "GiftCardMall/MyGift | View Your Gift on GiftCardPortal",
     description:
       "Explore GiftCardMall/MyGift to find your cards real balance-check Activation, read available funds, understand transactions, and solve prepaid gift card issues.",
-    locale: "en_US",
   },
   twitter: {
     card: "summary",
-    title: "GiftCardMall/MyGift Balance & Activation Guide | GiftCardPortal",
+    title: "GiftCardMall/MyGift | View Your Gift on GiftCardPortal",
     description:
       "Explore how to find your GiftCardMall/MyGift real balance-check Activation, read available funds, understand transactions, and solve prepaid gift card issues.",
   },
