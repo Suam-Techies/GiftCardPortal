@@ -61,7 +61,7 @@ export default function Home() {
         "name": "GiftCardPortal",
         "url": "https://giftcardportal.vip/",
         "description":
-          "Independent publisher of educational prepaid gift card information.",
+          "Explore how to find your GiftCardMall/MyGift real balance-check Activation, read available funds, understand transactions, and solve prepaid gift card issues.",
       },
       {
         "@type": "WebPage",
@@ -69,7 +69,7 @@ export default function Home() {
         "url": "https://giftcardportal.vip/",
         "name": "GiftCardMall/MyGift Balance and Activation Guide | GiftCardPortal",
         "description":
-          "Independent information about GiftCardMall/MyGift prepaid card balances, activation, and transactions.",
+          "Explore how to find your GiftCardMall/MyGift real balance-check Activation, read available funds, understand transactions, and solve prepaid gift card issues.",
         "isPartOf": {
           "@id": "https://giftcardportal.vip/#website",
         },
@@ -98,7 +98,7 @@ export default function Home() {
         "@id": "https://giftcardportal.vip/#article",
         "headline": "GiftCardMall/MyGift Balance and Activation Guide",
         "description":
-          "Independent information about GiftCardMall/MyGift prepaid card balances, activation, and transactions.",
+          "Explore how to find your GiftCardMall/MyGift real balance-check Activation, read available funds, understand transactions, and solve prepaid gift card issues.",
         "mainEntityOfPage": {
           "@id": "https://giftcardportal.vip/#webpage",
         },
