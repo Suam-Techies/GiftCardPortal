@@ -15,7 +15,7 @@ export const viewport = {
 export const metadata = {
   metadataBase: new URL("https://giftcardportal.vip"),
   title: {
-    default: "GiftCardMall/MyGift Balance & Activation Guide | GiftCardPortal",
+    default: "GiftCardMall/MyGift | View Your Gift on GiftCardPortal",
   },
   description:
     "Explore how to find GiftCardMall/MyGift cards real balance-check Activation, read available funds, understand transactions, and solve prepaid gift card issues.",
